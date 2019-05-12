@@ -1,6 +1,6 @@
 from django.shortcuts import render
 
 
-def getMainPage(request):
+def getBottomPage(request):
     devname = "presly4"
-    return render(request, 'main.html', locals())
+    return render(request, 'bottom.html', locals())

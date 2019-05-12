@@ -1,7 +1,7 @@
 from django.urls import path
 
-from main import views
+from social import views
 
 urlpatterns = [
-    path('main/', views.getMainPage, name='main')
+    path('social/', views.getSocialPage, name='social')
 ]

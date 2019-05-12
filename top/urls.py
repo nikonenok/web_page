@@ -1,7 +1,7 @@
 from django.urls import path
 
-from main import views
+from top import views
 
 urlpatterns = [
-    path('main/', views.getMainPage, name='main')
+    path('top/', views.getTopPage, name='top')
 ]
